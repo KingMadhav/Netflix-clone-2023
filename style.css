@@ -1,0 +1,385 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: Netflix, sans-serif, 'Gill Sans', 'Gill Sans MT', Calibri;
+}
+
+@font-face {
+    font-family: Netflix;
+    src: url(NetflixSans-Regular.otf);
+}
+
+@font-face {
+    font-family: Netflixbold;
+    src: url(NetflixSans-Bold.otf);
+}
+
+.bg {
+    background-color: rgb(31, 29, 29);
+
+}
+
+.main {
+    background-image: url("BG top linear gradient.jpg");
+    width: 100%;
+    height: 650px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.svg {
+    position: absolute;
+    width: 150px;
+    height: 40px;
+}
+
+.sign {
+    background-color: rgb(234, 14, 14);
+    color: white;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+select {
+    background-color: rgba(29, 27, 27, 0.822);
+    color: white;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.overlay {
+    width: 100%;
+    height: 650px;
+    background-color: rgba(0, 0, 0, 0.697);
+}
+
+.nav {
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.navrgt {
+    display: flex;
+    gap: 20px;
+}
+
+.body {
+    margin-top: 180px;
+    color: white;
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+span {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.last {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+input {
+    width: 360px;
+    height: 50px;
+    margin: 10px;
+    background-color: rgba(5, 5, 5, 0.674);
+    color: rgb(73, 71, 71);
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.start {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(234, 14, 14);
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    padding: 8px 18px;
+    border-radius: 5px;
+}
+
+.tv,
+.offline,
+.watch_everywhere,
+.children {
+    margin-top: 10px;
+    width: 100%;
+    height: 480px;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
+
+.txt {
+    width: 45%;
+    height: 100%;
+    color: white;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.normaloff,
+.normal {
+    font-size: 22px;
+    font-weight: 550;
+}
+
+.tvimage {
+    margin-top: 50px;
+    position: relative;
+}
+
+.tvimg {
+    height: 350px;
+    width: 470px;
+    position: absolute;
+}
+
+.tvvideo {
+    margin-top: 70px;
+    margin-left: 60px;
+    height: 200px;
+    width: 350px;
+}
+
+.txtoff {
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.phoneimage {
+    height: 100%;
+    width: 50%;
+}
+
+.imgphone {
+    padding: 25px;
+    height: 450px;
+    width: 550px;
+    object-position: center;
+}
+
+.txtwatch {
+    width: 50%;
+    height: 100%;
+    color: white;
+    text-align: center;
+    justify-content: center;
+}
+
+.pile {
+    margin-top: 50px;
+    width: 100%;
+    height: 80%;
+    position: absolute;
+    height: 350px;
+    width: 450px;
+}
+
+.watchvideo {
+    margin-top: 90px;
+    margin-left: 70px;
+    height: 150px;
+    width: 300px;
+}
+
+.deviceimage {
+    position: relative;
+}
+
+.normalwatch {
+    font-size: 25px;
+    font-weight: 550;
+}
+
+.childtxt {
+    left: 50%;
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.childrenimage {
+    height: 100%;
+    width: 50%;
+}
+
+.childimg {
+    padding: 25px;
+    height: 450px;
+    width: 550px;
+}
+
+.childnorm {
+    margin-right: 20px;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.head,
+span {
+    text-align: center;
+}
+
+.head,
+.heading,
+.headingoff,
+.headingwatch,
+.h {
+    font-family: netflixbold, netflix, sans-serif;
+}
+
+.head,
+.heading,
+.headingwatch,
+.headingoff {
+    font-size: 52.5px;
+    font-weight: bolder;
+}
+
+.body1 {
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+    line-height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.watch_everywhere {
+    position: relative;
+}
+
+.overlay1 {
+    height: 100%;
+}
+
+section.first>div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+section.first>div :nth-child(1) {
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+
+section.first>div :nth-child(2) {
+    font-size: 24px;
+
+}
+
+
+.h {
+    /* margin-top: 10px; */
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+.faq {
+    background: black;
+    color: white;
+    padding: 34px;
+    margin-top: 10px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    color: white;
+}
+
+.faqbox svg {
+    filter: invert(1);
+}
+
+.faqbox {
+    transition: all 0.2s ease-out;
+    font-size: 24px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    padding: 24px;
+    max-width: 90vw;
+    margin: 10px auto;
+    cursor: pointer;
+}
+
+
+@media screen and (max-width: 1300px) {
+
+    nav{
+        max-width: 90vw;
+    }
+
+    .first {
+        flex-wrap: wrap;
+    }
+    
+    .secImg img {
+        width: 305px;
+    }
+
+    .secImg video {
+        width: 305px;
+    }
+
+    .head> :nth-child(1) {
+        font-size: 32px;
+    }
+
+    .head> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .head> :nth-child(3) {
+        font-size: 18px;
+    }
+
+    .head-buttons {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 16px;
+    }
+
+    .faq h2 {
+        text-align: center;
+        font-size: 32px;
+    }
+    .last1{
+        width:50%;
+    }
+}
